@@ -1,0 +1,43 @@
+#ISMAT
+--------------------------------------------------------------------------
+MATNAME       Material name                 : impactr     : bdrfrac     : reglith
+EOSNAME       EOS name                      : basalt_     : basalt_     : basalt_
+EOSTYPE       EOS type                      : tillo       : tillo       : tillo
+STRMOD        Strength model                : ROCK        : ROCK        : ROCK
+DAMMOD        Damage model                  : NONE        : IVANOV      : IVANOV
+ACFL          Acoustic fluidisation         : NONE        : NONE        : NONE
+PORMOD        Porosity model                : NONE        : WUNNEMA     : WUNNEMA
+THSOFT        Thermal softening             : OHNAKA      : OHNAKA      : OHNAKA
+LDWEAK        Low density weakening         : POLY        : POLY        : POLY
+--------------------------------------------------------------------------
+POIS          pois                          : 3.0000D-01  : 3.0000D-1   : 3.0000D-1
+--------------------------------------------------------------------------
+TMELT0        tmelt0                        : 1.3730D+03  : 1.3730D+03  : 1.3730D+03
+TFRAC         tfrac                         : 1.2000D+00  : 1.2000D+00  : 1.2000D+00
+ASIMON        a_simon                       : 1.5200D+09  : 1.5200D+09  : 1.5200D+09
+CSIMON        c_simon                       : 4.0500D+00  : 4.0500D+00  : 4.0500D+00
+--------------------------------------------------------------------------
+YDAM0         ydam0 (ycoh)                  : 0.0000D+00  : 1.0000D+05  : 0.0000D0
+FRICDAM       fricdam                       : 6.7000D-01  : 6.7000D-01  : 0.3000D0
+YLIMDAM       ylimdam                       : 1.7000D+08  : 1.7000D+09  : 2.5000D+8
+--------------------------------------------------------------------------
+YINT0         yint0                         : 2.0000D+05  : 2.0000D+06  : 5.0000D+3
+FRICINT       fricint                       : 1.8000D+00  : 1.8000D+00  : 0.6000D0
+YLIMINT       ylimint                       : 1.7000D+08  : 1.7000D+09  : 2.5000D+8
+--------------------------------------------------------------------------
+PMININ        Minimum pressure              : XXXXXXXXXX  : XXXXXXXXXX  : XXXXXXXXXX
+--------------------------------------------------------------------------
+IVANOV_A      Damage parameter              : 1.0000D-04  : 1.0000D-04  : 1.0000D-04
+IVANOV_B      Damage parameter              : 1.0000D-11  : 1.0000D-11  : 1.0000D-11
+IVANOV_C      Damage parameter              : 3.0000D+08  : 3.0000D+08  : 3.0000D+08
+--------------------------------------------------------------------------
+GAMETA        gam_eta                       : 8.0000D-03  : 8.0000D-02  : XXXXXXXXXX
+GAMBETA       gam_beta                      : 1.1500D+02  : 0.5000D+02  : XXXXXXXXXX
+--------------- Porosity properties --------------------------------------
+ALPHA0        Initial porosity              : 0.0000D+0   : 1.33D0      : 2.0D0
+EPSE0         Elastic threshold             : 0.0000D+0   : -4.0D-4     : -1D-3
+ALPHAX        Transition                    : 0.0000D+0   : 1.1D0       : 1.2D0
+KAPPA         Exp coefficient               : 0.0000D+0   : 0.98D0      : 0.98D0
+CHI           Sound speed ratio             : 0.0000D+0   : 1.0D0       : 1.0D0
+--------------------------------------------------------------------------
+<<END
